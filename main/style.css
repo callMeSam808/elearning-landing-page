@@ -1,8 +1,16 @@
 body {
   margin: 0;
+  position: relative;
 }
 
-h3 {
+.top {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 165px;
+}
+
+.topHeader {
   color: #13183F;
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 32px;
@@ -24,9 +32,11 @@ h3 {
   width: 167px;
 }
 
-.top {
-  align-items: center;
+.hero {
   display: flex;
-  justify-content: space-between;
-  padding: 24px 165px;
+  padding-left: 165px;
+}
+
+.heroImage {
+  position: absolute;
 }
